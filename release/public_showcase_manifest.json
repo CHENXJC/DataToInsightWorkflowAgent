@@ -1,7 +1,8 @@
 {
   "project_name": "DataToInsightWorkflowAgent",
   "chinese_name": "数据洞察工作流智能体",
-  "checkpoint": "D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE",
+  "checkpoint": "D2I-008-PIN-DECISION-DEFERRED",
+  "current_checkpoint": "D2I-008-PIN-DECISION-DEFERRED",
   "local_first": true,
   "public_safe": true,
   "demo_mode": true,
@@ -17,6 +18,8 @@
   "screenshots_status": "captured",
   "screenshots_count": 9,
   "github_push_status": "pushed",
+  "profile_pin_status": "deferred",
+  "maintain_state": "maintain-showcase",
   "github_repo": "https://github.com/CHENXJC/DataToInsightWorkflowAgent",
   "release_stage": "public_showcase_released",
   "required_screenshots": [

@@ -10,11 +10,11 @@ DataToInsightWorkflowAgent
 
 ## Current Stage
 
-D2I-007 Final Public Release Check And GitHub Release
+D2I-008 Profile Pin Decision Deferred
 
 ## Current Checkpoint
 
-`D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
+`D2I-008-PIN-DECISION-DEFERRED`
 
 ## GitHub Public Showcase
 
@@ -22,8 +22,8 @@ D2I-007 Final Public Release Check And GitHub Release
 - Visibility: public
 - Branch: `main`
 - Screenshots: 9 public-safe PNG files
-- Profile Pin: not executed
-- Next pin decision checkpoint: `D2I-008-OPTIONAL-PROFILE-PIN-DECISION`
+- Profile Pin: deferred
+- Maintain state: `maintain-showcase`
 
 ## Safety Mode
 
@@ -94,8 +94,23 @@ Validation completed for D2I-007:
 - GitHub release: complete
 - Public release ready: true
 - GitHub push status: pushed
-- Profile pin: not executed
+- AgentHub integration: complete
+- Profile pin decision: deferred
+- Maintain state: maintain-showcase
+- Further expansion: paused unless explicitly restarted by user
 - Force push: not used
+
+## Completed In D2I-008
+
+- Completed GitHub Profile Pin decision analysis.
+- Final recommendation: `DEFER_PIN_DECISION`.
+- Recorded that D2I remains a valuable AI workflow / insight engine /
+  AgentHub spoke and a strong future pin candidate.
+- Deferred immediate pin because current GitHub Profile pin slots are full and
+  AgentHubControlCenter should be considered first for the main hub pin
+  position.
+- Kept the project in maintain-showcase state with no further feature
+  expansion unless explicitly restarted by user.
 
 ## Not Included
 
@@ -107,24 +122,26 @@ Validation completed for D2I-007:
 
 ## Next Stage
 
-`D2I-008-OPTIONAL-PROFILE-PIN-DECISION`
+`MAINTAIN-SHOWCASE`
 
 Recommended scope:
 
-- Decide whether to pin DataToInsightWorkflowAgent on GitHub profile
-- If pinning is requested, inspect current pinned repos first
-- Do not replace an existing pin without explicit user choice
+- Keep GitHub Public Showcase complete.
+- Keep AgentHub integration metadata available.
+- Do not expand features, pin, or replace profile pinned repos unless
+  explicitly requested.
 
 ## Git Policy
 
 - No `git add .` used
 - No force push used
 - No git remote overwrite
-- No Profile Pin action in D2I-007
+- No Profile Pin action in D2I-007 or D2I-008
 
 ## AgentHub Integration Status
 
-AgentHubControlCenter integration remains valid for local demo metadata.
+AgentHubControlCenter integration is complete and remains valid for local demo
+metadata.
 
 AgentHub-ready files:
 

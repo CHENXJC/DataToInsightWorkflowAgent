@@ -26,13 +26,13 @@ Input -> Normalize -> Classify -> Score -> Filter -> Analyze -> Export -> Dashbo
 
 当前 checkpoint：
 
-`D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
+`D2I-008-PIN-DECISION-DEFERRED`
 
 D2I-007 已完成最终公开发布检查并发布到 GitHub Public Showcase。
 
 GitHub repo: https://github.com/CHENXJC/DataToInsightWorkflowAgent
 
-当前未执行 Profile Pin；Pin 决策留到 D2I-008。
+Profile Pin decision: deferred. D2I remains public showcase complete and enters maintain-showcase state.
 
 ## 核心工作流
 
@@ -234,7 +234,7 @@ DataToInsightWorkflowAgent/
 
 ## Public Showcase 状态
 
-当前已经完成 D2I-007 public showcase release，`public_release_ready` 为 `true`，GitHub push 已完成。Profile Pin 尚未执行，留到 D2I-008 决策。
+当前已经完成 D2I-007 public showcase release，`public_release_ready` 为 `true`，GitHub push 已完成。Profile Pin decision deferred in D2I-008; project is now in maintain-showcase state.
 
 公开展示准备文件：
 
