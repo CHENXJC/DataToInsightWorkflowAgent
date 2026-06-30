@@ -1,0 +1,3 @@
+# Core tests and Streamlit dashboard runtime.
+pytest>=8.0
+streamlit>=1.35

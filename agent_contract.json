@@ -1,0 +1,154 @@
+{
+  "schema_version": "0.4.0",
+  "project": "DataToInsightWorkflowAgent",
+  "mode": {
+    "local_first": true,
+    "public_safe": true,
+    "demo_mode": true
+  },
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "item_id",
+      "source_type",
+      "title",
+      "raw_text",
+      "language",
+      "source_origin",
+      "created_at",
+      "tags",
+      "sensitivity_level"
+    ],
+    "properties": {
+      "item_id": "Stable synthetic demo item id.",
+      "source_type": "Example: learning_note, project_output, customer_feedback, job_description.",
+      "title": "Short public-safe item title.",
+      "raw_text": "Synthetic public-safe source text.",
+      "language": "Language code such as en or zh.",
+      "source_origin": "Must be synthetic_demo for included demo data.",
+      "created_at": "Demo creation date.",
+      "tags": "List of public-safe demo tags.",
+      "sensitivity_level": "Must be public_safe.",
+      "synthetic": "Must be true for demo data."
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "required": [
+      "item_id",
+      "source_type",
+      "title",
+      "normalized_text",
+      "classification",
+      "scores",
+      "overall_score",
+      "priority_level",
+      "keep_or_ignore",
+      "key_signals",
+      "recommended_actions",
+      "recommended_route",
+      "reason"
+    ],
+    "properties": {
+      "item_id": "Source item id.",
+      "source_type": "Normalized source type.",
+      "title": "Normalized title.",
+      "normalized_text": "Whitespace-normalized text.",
+      "classification": "Content category from the D2I taxonomy.",
+      "scores": "0-5 score dictionary across D2I dimensions.",
+      "overall_score": "Average or weighted value score.",
+      "priority_level": "High, Medium, Low, Noise, or Needs Review.",
+      "keep_or_ignore": "keep, archive, ignore, review_later, route_to_agent, or convert_to_project.",
+      "key_signals": "Actionable signals with why_it_matters, evidence, and possible_use.",
+      "recommended_actions": "Recommended action objects.",
+      "recommended_route": "Target agent or None.",
+      "reason": "Human-readable explanation."
+    }
+  },
+  "scoring_schema": {
+    "score_range": "0-5",
+    "dimensions": [
+      "learning_value",
+      "business_value",
+      "project_value",
+      "portfolio_value",
+      "career_value",
+      "content_value",
+      "actionability",
+      "novelty",
+      "evidence_strength",
+      "reuse_potential",
+      "urgency",
+      "strategic_fit"
+    ],
+    "priority_levels": [
+      "High",
+      "Medium",
+      "Low",
+      "Noise",
+      "Needs Review"
+    ]
+  },
+  "action_schema": {
+    "action_types": [
+      "save_to_knowledge_base",
+      "route_to_existing_agent",
+      "create_project_idea",
+      "use_for_assignment",
+      "use_for_portfolio",
+      "use_for_job_search",
+      "use_for_content_creation",
+      "generate_report",
+      "enrich_with_more_data",
+      "review_later",
+      "ignore_as_noise"
+    ],
+    "required_fields": [
+      "action_type",
+      "target",
+      "priority",
+      "reason",
+      "next_step"
+    ],
+    "route_targets": [
+      "PersonalKnowledgeAgent",
+      "AgentHubControlCenter",
+      "SocialPainFinderAgent",
+      "BusinessOpsAgent",
+      "CareerPilotAgent",
+      "NewsSignalAgent",
+      "VideoExtractSkill",
+      "DataToInsightWorkflowAgent",
+      "None"
+    ]
+  },
+  "agenthub_summary_schema": {
+    "required_fields": [
+      "agent_id",
+      "agent_name",
+      "status",
+      "demo_mode",
+      "public_safe",
+      "total_items_processed",
+      "high_value_signals",
+      "medium_value_items",
+      "low_value_or_noise_items",
+      "recommended_actions_count",
+      "top_routes",
+      "latest_report_path",
+      "capabilities",
+      "generated_at"
+    ],
+    "route_targets": [
+      "AgentHubControlCenter",
+      "PersonalKnowledgeAgent",
+      "BusinessOpsAgent",
+      "CareerPilotAgent",
+      "SocialPainFinderAgent",
+      "NewsSignalAgent",
+      "VideoExtractSkill",
+      "DataToInsightWorkflowAgent",
+      "None"
+    ]
+  }
+}

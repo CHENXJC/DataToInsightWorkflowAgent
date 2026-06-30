@@ -1,0 +1,40 @@
+{
+  "project_name": "DataToInsightWorkflowAgent",
+  "chinese_name": "数据洞察工作流智能体",
+  "checkpoint": "D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE",
+  "local_first": true,
+  "public_safe": true,
+  "demo_mode": true,
+  "synthetic_demo_data_only": true,
+  "dashboard_entrypoint": "app.py",
+  "cli_entrypoint": "python -m data_to_insight.cli run-demo",
+  "agenthub_ready": true,
+  "tests_status": "passed_in_d2i_006",
+  "compile_status": "passed_in_d2i_006",
+  "streamlit_smoke_status": "passed_in_d2i_006",
+  "public_release_ready": false,
+  "screenshots_required": true,
+  "screenshots_status": "captured",
+  "screenshots_count": 9,
+  "github_push_status": "not_executed",
+  "release_stage": "screenshot_capture_complete",
+  "required_screenshots": [
+    "docs/screenshots/01_dashboard_hero.png",
+    "docs/screenshots/02_overview_metrics.png",
+    "docs/screenshots/03_workflow_map.png",
+    "docs/screenshots/04_high_value_signals.png",
+    "docs/screenshots/05_action_board.png",
+    "docs/screenshots/06_noise_review_queue.png",
+    "docs/screenshots/07_processed_items_table.png",
+    "docs/screenshots/08_export_agenthub_panel.png",
+    "docs/screenshots/09_agenthub_d2i_card.png"
+  ],
+  "safety_boundary": {
+    "no_real_connectors": true,
+    "no_real_user_data": true,
+    "no_secret_required": true,
+    "no_external_api": true,
+    "outputs_ignored_by_default": true
+  },
+  "last_updated": "2026-06-30"
+}
