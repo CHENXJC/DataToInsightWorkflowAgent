@@ -1,6 +1,6 @@
 # Screenshots Guide
 
-Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
 This guide defines the public-safe screenshot set for the GitHub showcase. Do not create fake screenshots. Capture these images only from the local Streamlit dashboard and AgentHubControlCenter after running the demo pipeline with synthetic data.
 

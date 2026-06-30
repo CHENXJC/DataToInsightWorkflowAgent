@@ -1,9 +1,9 @@
 """Project constants for DataToInsightWorkflowAgent."""
 
 PACKAGE_NAME = "DataToInsightWorkflowAgent"
-VERSION = "0.6.0"
+VERSION = "0.7.0"
 AGENT_ID = "data_to_insight_workflow_agent"
-STATUS = "D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE"
+STATUS = "D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE"
 DEFAULT_INPUT_PATH = "demo_data/demo_items.json"
 DEFAULT_OUTPUT_DIR = "outputs"
 DEMO_REPORT_NAME = "demo_insight_report.md"

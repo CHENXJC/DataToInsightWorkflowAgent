@@ -10,11 +10,20 @@ DataToInsightWorkflowAgent
 
 ## Current Stage
 
-D2I-006 Screenshot Capture And README Screenshot Update
+D2I-007 Final Public Release Check And GitHub Release
 
 ## Current Checkpoint
 
-`D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+`D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
+
+## GitHub Public Showcase
+
+- GitHub repo: https://github.com/CHENXJC/DataToInsightWorkflowAgent
+- Visibility: public
+- Branch: `main`
+- Screenshots: 9 public-safe PNG files
+- Profile Pin: not executed
+- Next pin decision checkpoint: `D2I-008-OPTIONAL-PROFILE-PIN-DECISION`
 
 ## Safety Mode
 
@@ -25,38 +34,42 @@ D2I-006 Screenshot Capture And README Screenshot Update
 - Real connectors: not used
 - Real sensitive data processing: not allowed
 - Secret reading: not allowed
-- External API calls: not used
+- External API calls: GitHub publish/verification only
 - Real file upload: not implemented
 
-## Completed In D2I-006
+## Completed In D2I-007
 
-- Captured 8 real D2I Dashboard screenshots from local Streamlit
-- Captured 1 real AgentHubControlCenter D2I card screenshot
-- Updated README screenshot preview section
-- Updated `docs/SCREENSHOTS_GUIDE.md` capture status
-- Updated `docs/PUBLIC_RELEASE_CHECKLIST.md`
-- Updated `docs/PUBLIC_SHOWCASE_MANIFEST.md`
-- Updated `release/public_showcase_manifest.json`
-- Updated `tools/public_release_check.py` to verify screenshot PNG files
-- Demo report and AgentHub summary refreshed
-- AgentHub integration remains valid locally
+- Final D2I demo pipeline validation completed
+- Final pytest validation completed
+- Final compileall validation completed
+- Final public release check completed
+- D2I Streamlit smoke check completed
+- AgentHubControlCenter integration validation completed
+- AgentHub pytest and compileall validation completed
+- AgentHub Streamlit smoke check completed
+- GitHub public repo created
+- Exact public files staged without `git add .`
+- Initial public showcase commit pushed
+- GitHub README page verified
+- 9 screenshot raw URLs verified as `image/png`
+- Remote tree safety audit completed
+- GitHub About description and topics configured
+- Release manifest updated to public release ready
 
 ## Current Outputs
 
 - Dashboard app: `app.py`
-- Demo insight report: `outputs/demo_insight_report.md`
-- AgentHub summary JSON: `outputs/agenthub_summary.json`
-- AgentHub handoff doc: `docs/AGENTHUB_HANDOFF.md`
-- Public showcase manifest doc: `docs/PUBLIC_SHOWCASE_MANIFEST.md`
+- Demo insight report: `outputs/demo_insight_report.md` local generated output, ignored by git
+- AgentHub summary JSON: `outputs/agenthub_summary.json` local generated output, ignored by git
+- Public screenshot folder: `docs/screenshots/`
 - Release manifest JSON: `release/public_showcase_manifest.json`
 - Public release check script: `tools/public_release_check.py`
-- Screenshot folder: `docs/screenshots/`
 
 Generated output files remain ignored by git through `outputs/*` with `!outputs/.gitkeep`.
 
 ## Verification Status
 
-Validation completed for D2I-006:
+Validation completed for D2I-007:
 
 | Check | Status |
 | --- | --- |
@@ -64,49 +77,50 @@ Validation completed for D2I-006:
 | pytest | Passed |
 | compileall | Passed |
 | public release check | Passed |
-| Streamlit smoke check | Passed |
+| D2I Streamlit smoke check | Passed |
 | AgentHub integration check | Passed |
-| Sensitive filename scan | Passed |
+| AgentHub pytest | Passed |
+| AgentHub compileall | Passed |
+| AgentHub Streamlit smoke check | Passed |
 | Screenshot PNG validation | Passed |
+| Remote README page | Passed |
+| Remote screenshot URLs | Passed |
+| Remote unsafe file audit | Passed |
 
 ## Public Showcase Status
 
 - Public showcase preparation: complete
 - Screenshots captured: true
-- Public release ready: false
-- GitHub release: not executed
+- GitHub release: complete
+- Public release ready: true
+- GitHub push status: pushed
 - Profile pin: not executed
-- Git add/commit/push: not executed
+- Force push: not used
 
-Public release remains blocked until D2I-007 final manual release check and explicit GitHub release approval are complete.
+## Not Included
 
-## Not Started Items
-
-- GitHub public release
-- Profile pin decision
+- Profile Pin
 - Real connector integration
 - OCR / PDF / LLM API support
+- Real user data processing
+- Generated output reports in git
 
 ## Next Stage
 
-`D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE`
+`D2I-008-OPTIONAL-PROFILE-PIN-DECISION`
 
 Recommended scope:
 
-- Rerun final public release check
-- Confirm screenshot files and README image rendering
-- Confirm no private outputs or secrets are included
-- Create GitHub public release only after explicit approval
-- Do not pin until D2I-008 optional Profile Pin decision
+- Decide whether to pin DataToInsightWorkflowAgent on GitHub profile
+- If pinning is requested, inspect current pinned repos first
+- Do not replace an existing pin without explicit user choice
 
 ## Git Policy
 
-- Do not auto git add
-- Do not auto commit
-- Do not auto push
-- Do not force push
-- Do not change remote configuration without explicit user instruction
-- Do not use `git add .`
+- No `git add .` used
+- No force push used
+- No git remote overwrite
+- No Profile Pin action in D2I-007
 
 ## AgentHub Integration Status
 

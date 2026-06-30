@@ -1,8 +1,8 @@
 # Public Release Checklist
 
-Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
-This checklist is for the final manual pass before a GitHub public showcase release. D2I-006 captures screenshots and updates README, but does not publish the project.
+This checklist records the final public showcase release state for D2I-007.
 
 ## Documentation
 
@@ -38,10 +38,12 @@ This checklist is for the final manual pass before a GitHub public showcase rele
 - [x] Streamlit smoke check command defined
 - [x] AgentHub integration verification command defined
 - [x] Validation rerun after screenshot capture
-- [ ] Final validation rerun immediately before GitHub release
+- [x] Final validation rerun immediately before GitHub release
 
 ## GitHub Release Boundary
 
-- [x] GitHub remote/push not executed in D2I-006
-- [x] No git add/commit/push in D2I-006
-- [x] Public release readiness remains false until screenshots and final manual audit are done
+- [x] GitHub public repo created
+- [x] Exact git add used; `git add .` not used
+- [x] Commit pushed to `origin/main`
+- [x] Public release readiness marked true after remote verification
+- [x] Profile Pin not executed

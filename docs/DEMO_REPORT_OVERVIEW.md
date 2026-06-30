@@ -1,6 +1,6 @@
 # Demo Report Overview
 
-Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
 The demo pipeline uses only `demo_data/demo_items.json`, which contains public-safe synthetic examples.
 

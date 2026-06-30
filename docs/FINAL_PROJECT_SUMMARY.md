@@ -6,7 +6,7 @@ DataToInsightWorkflowAgent
 
 Chinese name: 数据洞察工作流智能体
 
-Current checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Current checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
 ## One-Line Positioning
 
@@ -53,7 +53,7 @@ Input
 
 ## Public Showcase Boundary
 
-The project has completed screenshot capture and README screenshot updates, but it is not yet GitHub-released. The current public release manifest intentionally keeps `public_release_ready` as `false` until D2I-007 final release review and explicit approval.
+The project has completed GitHub Public Showcase release at https://github.com/CHENXJC/DataToInsightWorkflowAgent. Profile Pin is intentionally deferred to D2I-008.
 
 ## Not Included
 

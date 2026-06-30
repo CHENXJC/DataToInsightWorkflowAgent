@@ -1,6 +1,6 @@
 # AgentHub Showcase Notes
 
-Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
 DataToInsightWorkflowAgent is AgentHub-ready through local manifest and summary files. AgentHubControlCenter reads these files as metadata and does not execute D2I actions automatically.
 

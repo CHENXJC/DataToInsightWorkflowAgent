@@ -1,13 +1,13 @@
 # Public Showcase Manifest
 
-Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+Checkpoint: `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
 ## Project Identity
 
 - Project name: DataToInsightWorkflowAgent
 - Chinese name: 数据洞察工作流智能体
 - Category: Data Workflow / Insight Engine
-- Current release stage: Public showcase preparation
+- Current release stage: GitHub public showcase released
 
 ## Public Showcase Status
 
@@ -20,14 +20,15 @@ Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
 | dashboard_entrypoint | `app.py` |
 | cli_entrypoint | `python -m data_to_insight.cli run-demo` |
 | agenthub_ready | true |
-| tests_status | passed in D2I-006 |
-| compile_status | passed in D2I-006 |
-| streamlit_smoke_status | passed in D2I-006 |
-| public_release_ready | false |
+| tests_status | passed in D2I-007 |
+| compile_status | passed in D2I-007 |
+| streamlit_smoke_status | passed in D2I-007 |
+| public_release_ready | true |
 | screenshots_required | true |
 | screenshots_status | captured |
 | screenshots_count | 9 |
-| github_push_status | not_executed |
+| github_push_status | pushed |
+| github_repo | https://github.com/CHENXJC/DataToInsightWorkflowAgent |
 
 ## Required Public Files
 
@@ -47,4 +48,4 @@ Checkpoint: `D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
 
 ## Release Decision
 
-D2I-006 does not publish the project. The next stage is `D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE`, only after explicit approval.
+D2I-007 published the project to GitHub Public Showcase. The next stage is `D2I-008-OPTIONAL-PROFILE-PIN-DECISION`.

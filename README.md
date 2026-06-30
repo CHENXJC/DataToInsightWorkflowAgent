@@ -26,11 +26,13 @@ Input -> Normalize -> Classify -> Score -> Filter -> Analyze -> Export -> Dashbo
 
 当前 checkpoint：
 
-`D2I-006-SCREENSHOT-CAPTURE-AND-README-SCREENSHOT-UPDATE-COMPLETE`
+`D2I-007-FINAL-PUBLIC-RELEASE-CHECK-AND-GITHUB-RELEASE-COMPLETE`
 
-D2I-006 已完成真实 public-safe 截图采集和 README 截图区更新。9 张截图均来自本地运行的 D2I Dashboard 或 AgentHubControlCenter，不使用伪造截图。
+D2I-007 已完成最终公开发布检查并发布到 GitHub Public Showcase。
 
-当前仍未 GitHub public release，未 Profile Pin，未执行 git add/commit/push。
+GitHub repo: https://github.com/CHENXJC/DataToInsightWorkflowAgent
+
+当前未执行 Profile Pin；Pin 决策留到 D2I-008。
 
 ## 核心工作流
 
@@ -232,7 +234,7 @@ DataToInsightWorkflowAgent/
 
 ## Public Showcase 状态
 
-当前已经完成 D2I-006 screenshot capture and README screenshot update，但 `public_release_ready` 仍为 `false`，原因是 GitHub 发布前还需要 D2I-007 最终人工安全检查和明确发布授权。
+当前已经完成 D2I-007 public showcase release，`public_release_ready` 为 `true`，GitHub push 已完成。Profile Pin 尚未执行，留到 D2I-008 决策。
 
 公开展示准备文件：
 
